@@ -1,0 +1,15 @@
+
+
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN" 
+  "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <package name="default" extends="struts-default">
+        <!-- <action name="editBook" class="com.yourpackage.EditBookAction"> -->
+        <action name="editBook" class="mvc_filter.EditBookAction">
+            <result name="success">/EditBook.jsp</result>
+            <result name="input">/EditBook.jsp</result>
+        </action>
+    </package>
+</struts>
+
+
